@@ -23,12 +23,7 @@ class BuilingList extends React.Component {
 			return (
 				<tr onClick={() => {this.selectUpdate(directory.id)}}
 					key={directory.id}>
-					{/* <td>{directory.code} </td> */}
 					<Button variant="outlined" color="primary">{directory.code} - {directory.name}</Button>
-					{/* <td> {directory.name} </td> */}
-					{/* <Button variant="outlined">
-					test
-					</Button> */}
 				</tr>
 			);
 		});
