@@ -1,7 +1,10 @@
 body {
-	margin: 0;
-	padding: 0;
 	font-family: sans-serif;
+
+	/* new... */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* ##### general ##### */
@@ -10,6 +13,11 @@ body {
 }
 main {
 	padding: 0 2rem;
+}
+
+h1{
+	text-align: center;
+	color: #3f51b5;
 }
 
 /* ##### Search ##### */
@@ -52,12 +60,13 @@ td:hover {
 	float: left;
 	width: 50%;
 	padding: 10px;
+	margin: "0.5em";
 }
 .column2 {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	margin: "0.5em";
 }
 
 /* ##### Rows ##### */
